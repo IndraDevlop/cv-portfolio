@@ -115,7 +115,7 @@ const Hero = () => {
                 handle="IndraDevlop"
                 status="Online"
                 contactText="Contact Me"
-                avatarUrl="/assets/profil.png" // Ganti dengan path avatar Anda
+                avatarUrl="./assets/profil.png" // Ganti dengan path avatar Anda
                 showUserInfo={true}
                 enableTilt={true}
                 onContactClick={handleContactNavigation}
