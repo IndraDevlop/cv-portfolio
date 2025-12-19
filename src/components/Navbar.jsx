@@ -52,7 +52,7 @@ const Navbar = () => {
         className="flex items-center">
           <div className="h-15 w-30 items-center justify-center text-purple-600 font-bold text-xl mr-3">
             <img 
-              src="/assets/MylogoLight.png" // <--- INI PENTING: Jalur langsung dari root 'public'
+              src="./assets/MylogoLight.png" // <--- INI PENTING: Jalur langsung dari root 'public'
               alt="Logo Perusahaan Saya"
               className="h-full w-full object-contain p-1" 
             />

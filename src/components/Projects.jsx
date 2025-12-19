@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) =>(
              <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad} data-aos-once="true">
-             <img src={proyek.gambar} alt="Project Image" loading="lazy" />
+             <img src={`${import.meta.env.BASE_URL}${proyek.gambar}`} alt="Project Image" loading="lazy" />
              <div>
               <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
               <p className="text-base/loose mb-4">{proyek.desk}</p>
