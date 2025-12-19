@@ -1,30 +1,16 @@
-import HeroImage from "./assets/hero-img.webp";
 
 const Image = {
-  HeroImage,
+  HeroImage: "assets/hero-img.webp",
 };
 
 export default Image;
-
-import Tools1 from "./assets/tools/vscode.png";
-import Tools2 from "./assets/tools/reactjs.png";
-import Tools3 from "./assets/tools/nextjs.png";
-import Tools4 from "./assets/tools/tailwind.png";
-import Tools5 from "./assets/tools/bootstrap.png";
-import Tools6 from "./assets/tools/js.png";
-import Tools7 from "./assets/tools/nodejs.png";
-import Tools8 from "./assets/tools/php.png";
-import Tools9 from "./assets/tools/xampp.png";
-import Tools10 from "./assets/tools/sqlserver.png";
-import Tools11 from "./assets/tools/mysql.png";
-import Tools12 from "./assets/tools/github.png";
-import Tools13 from "./assets/tools/ai.png";
 
 export const listTools = [
   {
     id: 1,
     gambar: Tools1,
     nama: "Visual Studio Code",
+    src: "assets/tools/vscode.png",
     ket: "Code Editor",
     dad: "100",
   },
@@ -32,6 +18,7 @@ export const listTools = [
     id: 2,
     gambar: Tools2,
     nama: "React JS",
+    src: "assets/tools/reactjs.png",
     ket: "Framework",
     dad: "200",
   },
@@ -39,6 +26,7 @@ export const listTools = [
     id: 3,
     gambar: Tools3,
     nama: "Next JS",
+    src: "assets/tools/nextjs.png",
     ket: "Framework",
     dad: "300",
   },
@@ -46,6 +34,7 @@ export const listTools = [
     id: 4,
     gambar: Tools4,
     nama: "Tailwind CSS",
+    src: "assets/tools/tailwind.png",
     ket: "Framework",
     dad: "400",
   },
@@ -53,6 +42,7 @@ export const listTools = [
     id: 5,
     gambar: Tools5,
     nama: "Bootstrap",
+    src: "assets/tools/bootstrap.png",
     ket: "Framework",
     dad: "500",
   },
@@ -60,6 +50,7 @@ export const listTools = [
     id: 6,
     gambar: Tools6,
     nama: "Javascript",
+    src: "assets/tools/js.png",
     ket: "Language",
     dad: "600",
   },
@@ -67,6 +58,7 @@ export const listTools = [
     id: 7,
     gambar: Tools7,
     nama: "Node JS",
+    src: "assets/tools/nodejs.png",
     ket: "Javascript Runtime",
     dad: "700",
   },
@@ -74,6 +66,7 @@ export const listTools = [
     id: 8,
     gambar: Tools8,
     nama: "PHP",
+    src: "assets/tools/php.png",
     ket: "Language Server-side",
     dad: "800",
   },
@@ -81,6 +74,7 @@ export const listTools = [
     id: 9,
     gambar: Tools9,
     nama: "Xampp",
+    src: "assets/tools/xampp.png",
     ket: "Web Serve Localhost",
     dad: "900",
   },
@@ -88,6 +82,7 @@ export const listTools = [
     id: 10,
     gambar: Tools10,
     nama: "SQL Server",
+    src: "assets/tools/sqlserver.png",
     ket: "Database Management",
     dad: "1000",
   },
@@ -95,6 +90,7 @@ export const listTools = [
     id: 11,
     gambar: Tools11,
     nama: "MySQL",
+    src: "assets/tools/mysql.png",
     ket: "Database Management",
     dad: "1100",
   },
@@ -102,6 +98,7 @@ export const listTools = [
     id: 12,
     gambar: Tools12,
     nama: "Github",
+    src: "assets/tools/github.png",
     ket: "Repository",
     dad: "1200",
   },
@@ -109,6 +106,7 @@ export const listTools = [
     id: 13,
     gambar: Tools13,
     nama: "Adobe Illustrator",
+    src: "assets/tools/ai.png",
     ket: "Design App",
     dad: "1300",
   },
