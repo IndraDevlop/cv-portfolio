@@ -8,7 +8,6 @@ export default Image;
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
     nama: "Visual Studio Code",
     src: "assets/tools/vscode.png",
     ket: "Code Editor",
@@ -16,7 +15,6 @@ export const listTools = [
   },
   {
     id: 2,
-    gambar: Tools2,
     nama: "React JS",
     src: "assets/tools/reactjs.png",
     ket: "Framework",
@@ -24,7 +22,6 @@ export const listTools = [
   },
   {
     id: 3,
-    gambar: Tools3,
     nama: "Next JS",
     src: "assets/tools/nextjs.png",
     ket: "Framework",
@@ -32,7 +29,6 @@ export const listTools = [
   },
   {
     id: 4,
-    gambar: Tools4,
     nama: "Tailwind CSS",
     src: "assets/tools/tailwind.png",
     ket: "Framework",
@@ -40,7 +36,6 @@ export const listTools = [
   },
   {
     id: 5,
-    gambar: Tools5,
     nama: "Bootstrap",
     src: "assets/tools/bootstrap.png",
     ket: "Framework",
@@ -48,7 +43,6 @@ export const listTools = [
   },
   {
     id: 6,
-    gambar: Tools6,
     nama: "Javascript",
     src: "assets/tools/js.png",
     ket: "Language",
@@ -56,7 +50,6 @@ export const listTools = [
   },
   {
     id: 7,
-    gambar: Tools7,
     nama: "Node JS",
     src: "assets/tools/nodejs.png",
     ket: "Javascript Runtime",
@@ -64,7 +57,6 @@ export const listTools = [
   },
   {
     id: 8,
-    gambar: Tools8,
     nama: "PHP",
     src: "assets/tools/php.png",
     ket: "Language Server-side",
@@ -72,7 +64,6 @@ export const listTools = [
   },
   {
     id: 9,
-    gambar: Tools9,
     nama: "Xampp",
     src: "assets/tools/xampp.png",
     ket: "Web Serve Localhost",
@@ -80,7 +71,6 @@ export const listTools = [
   },
   {
     id: 10,
-    gambar: Tools10,
     nama: "SQL Server",
     src: "assets/tools/sqlserver.png",
     ket: "Database Management",
@@ -88,7 +78,6 @@ export const listTools = [
   },
   {
     id: 11,
-    gambar: Tools11,
     nama: "MySQL",
     src: "assets/tools/mysql.png",
     ket: "Database Management",
@@ -96,7 +85,6 @@ export const listTools = [
   },
    {
     id: 12,
-    gambar: Tools12,
     nama: "Github",
     src: "assets/tools/github.png",
     ket: "Repository",
@@ -104,13 +92,11 @@ export const listTools = [
   },
   {
     id: 13,
-    gambar: Tools13,
     nama: "Adobe Illustrator",
     src: "assets/tools/ai.png",
     ket: "Design App",
     dad: "1300",
   },
-  
 ];
 
 export const listProyek = [
