@@ -9,8 +9,8 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 // replace with your own imports, see the usage snippet for details
 // import cardGLB from './card.glb';
 // import lanyard from './lanyard.png';
-const cardGLB = '/assets/lanyard/card.glb';
-const lanyardTexture = '/assets/lanyard/lanyard.png';
+const cardGLB = './assets/lanyard/card.glb';
+const lanyardTexture = './assets/lanyard/lanyard.png';
 
 import * as THREE from 'three';
 import './lanyard.css';
@@ -79,7 +79,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
   const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 4, linearDamping: 4 };
   const { nodes, materials } = useGLTF(cardGLB);
   const texture = useTexture(lanyardTexture);
-  const newCardTexture = useTexture('/assets/lanyard/idcard.png');
+  const newCardTexture = useTexture('./assets/lanyard/idcard.png');
   // Mengecilkan gambar 50%
   newCardTexture.repeat.set(1.5, 0.9);
   

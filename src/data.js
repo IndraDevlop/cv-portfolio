@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "./assets/hero-img.webp";
 
 const Image = {
   HeroImage,
@@ -6,19 +6,19 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/php.png";
-import Tools9 from "/assets/tools/xampp.png";
-import Tools10 from "/assets/tools/sqlserver.png";
-import Tools11 from "/assets/tools/mysql.png";
-import Tools12 from "/assets/tools/github.png";
-import Tools13 from "/assets/tools/ai.png";
+import Tools1 from "./assets/tools/vscode.png";
+import Tools2 from "./assets/tools/reactjs.png";
+import Tools3 from "./assets/tools/nextjs.png";
+import Tools4 from "./assets/tools/tailwind.png";
+import Tools5 from "./assets/tools/bootstrap.png";
+import Tools6 from "./assets/tools/js.png";
+import Tools7 from "./assets/tools/nodejs.png";
+import Tools8 from "./assets/tools/php.png";
+import Tools9 from "./assets/tools/xampp.png";
+import Tools10 from "./assets/tools/sqlserver.png";
+import Tools11 from "./assets/tools/mysql.png";
+import Tools12 from "./assets/tools/github.png";
+import Tools13 from "./assets/tools/ai.png";
 
 export const listTools = [
   {
@@ -115,12 +115,12 @@ export const listTools = [
   
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "./assets/proyek/proyek1.webp";
+import Proyek2 from "./assets/proyek/proyek2.webp";
+import Proyek3 from "./assets/proyek/proyek3.webp";
+import Proyek4 from "./assets/proyek/proyek4.webp";
+import Proyek5 from "./assets/proyek/proyek5.webp";
+import Proyek6 from "./assets/proyek/proyek6.webp";
 
 export const listProyek = [
   {
