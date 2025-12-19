@@ -102,7 +102,6 @@ export const listTools = [
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
     nama: "Website Sekolah",
     image: "assets/proyek/proyek1.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
@@ -111,7 +110,6 @@ export const listProyek = [
   },
   {
     id: 2,
-    gambar: Proyek2,
     nama: "Company Profile",
     image: "assets/proyek/proyek2.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
@@ -120,7 +118,6 @@ export const listProyek = [
   },
   {
     id: 3,
-    gambar: Proyek3,
     nama: "Web Pernikahan 2.0",
     image: "assets/proyek/proyek3.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
@@ -129,7 +126,6 @@ export const listProyek = [
   },
   {
     id: 4,
-    gambar: Proyek4,
     nama: "Website Course",
     image: "assets/proyek/proyek4.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
@@ -138,7 +134,6 @@ export const listProyek = [
   },
   {
     id: 5,
-    gambar: Proyek5,
     nama: "Web Portfolio",
     image: "assets/proyek/proyek5.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
@@ -147,7 +142,6 @@ export const listProyek = [
   },
   {
     id: 6,
-    gambar: Proyek6,
     nama: "Company Profile 2.0",
     image: "assets/proyek/proyek6.webp",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
