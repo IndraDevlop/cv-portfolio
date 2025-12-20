@@ -121,11 +121,16 @@ const Navbar = () => {
       transition={{ duration: 0.5}}
       className="md:hidden overflow-hidden bg-zinc-700 dark:bg-gray-900 shadow-lg px-4 py-1 space-y-5">
           <nav className="flex flex-col space-y-3">
-            {["Home", "About", "Project", "Experience", "Contact"].map((item) => (
-              <a onClick={toggleMenu} className="text-gray-300 font-medium py-2" key={item} href={`#${item.toLowerCase()}`}>
-                {item}
-              </a>
-            ))}
+            {["Home", "About", "Project", "Experience", "Contact"].map((item, index) => (
+            <motion.button
+              key={item}
+              onClick={() => handleScrollSmooth(item.toLowerCase())}
+              className="relative text-gray-300 hover:text-violet-600 font-medium transition-colors duration-300 group"
+            >
+              {item}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-violet-600 group-hover:w-full transition-all duration-300"></span>
+            </motion.button>
+          ))}
           </nav>
           <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex space-x-5">
