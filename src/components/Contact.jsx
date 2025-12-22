@@ -12,7 +12,7 @@ const Contact = () => {
 	return (
 		<div className="contact mt-25 sm:p-10 p-0" id="contact">
       <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Contact</h1>
-      <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Come connect with me
+      <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Let's connect with me
       </p>
       <div className="flex flex-col md:flex-row justify-between w-full items-start">
         <div className="w-full md:w-1/2 md:pr-6 mb-10 md:mb-0 relative" >

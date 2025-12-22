@@ -28,7 +28,7 @@ const Navbar = () => {
 
     // animasi smooth-scroll PAKE FRAMER-MOTION animate()
     animate(window.scrollY, targetY, {
-      duration: 1.4, // PERLAMBAT DI SINI
+      duration: 0.5, // PERLAMBAT DI SINI
       ease: "easeInOut",
       onUpdate: (latest) => window.scrollTo(0, latest),
     });
