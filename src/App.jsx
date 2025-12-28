@@ -2,7 +2,7 @@ import Preloader from './components/Preloader'
 import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Hero from './components/Hero';
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import CustomCursor from './components/CustomCursor'
 import About from './components/About';
 import Projects from './components/Projects';
